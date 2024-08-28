@@ -1,0 +1,25 @@
+h3{color: rgb(97, 97, 183); margin:10px}
+#banner{
+    max-width: 100%;
+    background-image:url(Banner.jpg);
+    background-image: repeat;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background-color: rgb(122, 216, 216);
+    padding: 5px;
+}
+
+.grid-container > div {
+    background-color: aqua;
+    text-align: left;
+    padding: 20 px 0;
+
+}
+
+.nav>ul{margin:1px}
+.nav > ul > li { padding: 10px; display:inline; background-color: blue;}
+a:link{color: rgb(193,190,19);}
+a:visited{color:aqua}
