@@ -239,6 +239,9 @@ body {
     width: 8vw;
     height: 11vh;
  
+   vertical-align: middle;
+    horizontal-align: middle;
+
     transition: opacity 0.3s, transform 0.3s;
 }
 
