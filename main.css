@@ -250,8 +250,8 @@ body {
 }
 /* Specific styling for the LinkedIn icon */
 .social-media img.linkedin {
-    width: 40px; /* 20% smaller than the original 50px */
-    height: 40px; /* Maintain the aspect ratio */
+    width: 25px; /* Adjust the size until it matches the X icon */
+    height: 25px; /* Maintain the aspect ratio */
 }
 
 
