@@ -136,14 +136,14 @@ h1, h2 {
 section {
     margin: 20px auto;
     padding: 20px;
-    max-width: 800px; /* Adjust based on your preference */
-    text-align: center; /* Center text within each section */
-    border: 1px solid #ddd; /* Optional: add a border for separation */
-    border-radius: 8px; /* Optional: rounded corners */
-    background-color: #f9f9f9; /* Optional: background color for sections */
+    max-width: 800px; 
+    text-align: center; /* Centre text */
+    border: 1px solid #ddd; /* border for separation */
+    border-radius: 8px; /*  rounded corners */
+    background-color: #f9f9f9; /* background color for sections */
 }
 
-/* Add some space between sections */
+/* space between sections */
 section + section {
     margin-top: 40px;
 }
@@ -157,7 +157,7 @@ section + section {
 }
 
 .button-container {
-    text-align: center; /* Centers the button container */
+    text-align: center; /* Centres the button container */
     margin-top: 20px;  /* Adds some space above the buttons */
 }
 
@@ -183,7 +183,6 @@ section + section {
 }
 
 /* social media icons */
-/* Add these styles to your main.css file to style the social media icons */
 .social-media {
     list-style: none;
     padding: 0;
@@ -198,11 +197,9 @@ section + section {
 
 .social-media img {
     width: 50px; 
-    height: auto;
+    height: 50px;
     vertical-align: middle;
 }
-
-/* main.css */
 
 /* General styles */
 body {
@@ -217,7 +214,7 @@ body {
     padding: 20px;
 }
 
-/* Contact page specific styles */
+/* Contact page styles */
 #contact {
     background-color: #f4f4f4;
     padding: 40px 0;
@@ -245,7 +242,7 @@ body {
 
 .social-media img {
     width: 50px;
-    height: auto;
+    height: 50px;
     vertical-align: middle;
     transition: opacity 0.3s, transform 0.3s;
 }
@@ -280,7 +277,7 @@ body {
         margin: 10px 0;
     }
 
-    /* Hamburger menu styles */
+ /* Hamburger menu */
     .hamburger {
         display: none;
         font-size: 24px;
