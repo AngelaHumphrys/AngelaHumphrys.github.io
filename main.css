@@ -248,6 +248,12 @@ body {
     vertical-align: middle;
     transition: opacity 0.3s, transform 0.3s;
 }
+/* Specific styling for the LinkedIn icon */
+.social-media img.linkedin {
+    width: 40px; /* 20% smaller than the original 50px */
+    height: 40px; /* Maintain the aspect ratio */
+}
+
 
 .social-media a:hover img {
     opacity: 0.7;
