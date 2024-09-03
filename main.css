@@ -195,13 +195,6 @@ section + section {
     display: inline;
 }
 
-.social-media img {
-    width: 50px;  /* Set width to 50px */
-    height: 50px; /* Set height to 50px */
-    
-    vertical-align: middle;
-    transition: opacity 0.3s, transform 0.3s;
-}
 
 /* General styles */
 body {
@@ -243,10 +236,9 @@ body {
 }
 
 .social-media img {
-    width: 50%;
-    height: 50%;
-    vertical-align: middle;
-    horizontal-align: middle;
+    width: 8vw;
+    height: 11vh;
+ 
     transition: opacity 0.3s, transform 0.3s;
 }
 
