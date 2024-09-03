@@ -8,11 +8,12 @@ body.is-preload {
 }
 
 .container {
-    max-width: 1200px;
+    width: 100vw; /* 80% of the viewport width */
+    max-width: 1200px; /* Set a maximum width */
     margin: 0 auto;
     padding: 20px;
+    box-sizing: border-box; /* Includes padding in the total width */
 }
-
 .wrapper {
     background: #e4e2f0; /* light background color */
     color: #440761;      /* text color */
