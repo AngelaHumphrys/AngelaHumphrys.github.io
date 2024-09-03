@@ -268,3 +268,30 @@ body {
         margin: 10px 0;
     }
 }
+/* Mobile styles */
+@media (max-width: 600px) {
+    #nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav li {
+        margin: 10px 0;
+    }
+
+    /* Hamburger menu styles */
+    .hamburger {
+        display: none;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-menu.show {
+        display: flex;
+    }
+}
