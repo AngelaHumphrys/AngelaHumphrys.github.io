@@ -235,7 +235,7 @@ body {
     display: inline;
 }
 
-.social-media img {
+.LinkedIn {
     width: 50px;  /* Set width to 50px */
     height: 50px; /* Set height to 50px */
     
@@ -243,7 +243,13 @@ body {
     transition: opacity 0.3s, transform 0.3s;
 }
 
-
+.X {
+    width: 40px;  /* Set width to 50px */
+    height: 40px; /* Set height to 50px */
+    
+    vertical-align: middle;
+    transition: opacity 0.3s, transform 0.3s;
+}
 
 
 .social-media a:hover img {
