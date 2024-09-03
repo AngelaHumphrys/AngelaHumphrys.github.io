@@ -227,7 +227,7 @@ body {
     list-style: none;
     padding: 0;
     display: flex;
-    gap: 15px;
+    gap: 12px;
     justify-content: center;
 }
 
@@ -244,8 +244,8 @@ body {
 }
 
 .X {
-    width: 40px;  /* Set width to 50px */
-    height: 40px; /* Set height to 50px */
+    width: 35px;  /* Set width to 50px */
+    height: 35px; /* Set height to 50px */
     
     vertical-align: middle;
     transition: opacity 0.3s, transform 0.3s;
