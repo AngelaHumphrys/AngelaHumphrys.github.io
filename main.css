@@ -252,6 +252,7 @@ body {
 .social-media img.linkedin {
     width: 25px; /* Adjust the size until it matches the X icon */
     height: 25px; /* Maintain the aspect ratio */
+    vertical-align: middle; /* Ensure vertical alignment */
 }
 
 
